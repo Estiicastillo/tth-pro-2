@@ -1,0 +1,115 @@
+*{
+font-family: 'Noto Sans JP', sans-serif;
+text-align: center;
+color: rgb(57,57,57);
+}
+body{
+  padding:5%;
+  background:black
+}
+h1,
+h2,
+p,
+li,
+h3{
+color: white !important;
+
+}
+img {
+  max-width: 100%;
+}
+ul{
+padding-left: 0;
+}
+
+.nav li,
+ h2{
+   list-style: none;
+   font-weight: 800;
+   text-transform: uppercase;
+   padding: 15px;
+   font-size: 18px;
+
+ }
+h3{
+font-weight: 600;
+
+}
+
+
+ #top {
+text-transform: full-width;
+
+
+ }
+ .top{
+   margin: 16px 0;
+}
+
+
+a {
+text-decoration: none;
+}
+
+a:hover{
+ text-decoration: underline;
+  color: orange;
+  }
+.profile-pic{
+padding-top: 50px;
+
+}
+
+
+.title{
+font-size: 30px;
+}
+
+
+
+.portfolio-container{
+ padding-top: 15%;
+ padding-bottom: 15%;
+}
+
+#portfolio {
+  padding: 40px;
+}
+
+.project{
+
+  padding-bottom: 25px;
+}
+
+.contact-information{
+  font-weight: 700;
+}
+
+footer{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+font-weight: 700;
+border-top:  solid rgb(165, 162, 167) 1px;
+margin-top: 50px;
+
+}
+.nav-footer{
+  display: none;
+
+}
+
+
+  @media (min-width: 768px) {
+
+.nav{
+  display: flex;
+  justify-content: center;
+}
+.sec-1{
+  display:flex;
+}
+.portfolio-container-1{
+  flex-wrap:
+
+}

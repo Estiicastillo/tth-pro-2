@@ -124,6 +124,7 @@ flex-direction: row-reverse;
   text-align: right;
 
   }
+
   .project {
   float: left;
   width: 45%;
@@ -163,8 +164,9 @@ padding-left: 20px;
  img:hover{
 transform: scale(1.1);
 
- }
 
+}
+}
 
  @media  (min-width: 1024px) {
  body{
@@ -185,6 +187,7 @@ align-items: center;
 .bio{
   font-size: 1.75em;
 }
+
 .project:nth-child(even){
 margin-right: initial;
 }
@@ -201,5 +204,7 @@ margin-right: 5%;
    max-width: 100%;
  }
  .contact-container{
-   max-width: 50%;
-   }
+   max-width: 50%;}
+
+}
+}
